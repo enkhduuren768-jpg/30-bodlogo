@@ -216,16 +216,53 @@
 // if (products[2].price < cheapest.price) cheapest = products[2];
 // console.log(cheapest.name )
 
-const delivery = { zone:"Захын бүс", isExpress:true  };
-let fee ;
- switch (delivery.zone){
- case "Төв",
- fee = 3000 :
- break;
- switch "Захын бүс"
+// const delivery = { zone:"Захын бүс", isExpress:true  };
+// let fee ;
+//  switch (delivery.zone){
+//  case "Төв":
+//    fee = 3000 ;
+//    break;
+//  case "Захын бүс":
+//     fee = 5000;
+//     break; 
+//  case "Орон нутаг":
+//     fee = 10000;
+//     break;
+//     default:
+//     fee = null;
+// }
+// if (fee === null) {
+//     console.log("Хүргэлтийн бүс буруу");
+//   } else {
+//     if (delivery.isExpress) fee += 2000;
+//     console.log(fee);
+//   }
+
+// const order = {status:"Бэлтгэж байна", isPaid:true, total:45000 };
+// if( order.status === "Хүлээгдэж байна" || order.status ==="Бэлтгэж байна"){
+//     order.status = "Цуцлагдсан"
+//     order.refundAmount = order.isPaid ? order.total : 0;
+// }
+// console.log("28.", `status нь "${order.status}", refundAmount нь ${order.refundAmount}`);
 
 
-}
+// const purchase = {daysSincePurchas:5, hasReceipt:true, isDamaged:false};
+// if( purchase.daysSincePurchas > 7){
+//     console.log("7 хоногийн хугацаа хэтэрсэн" );
+// } else if ( ! purchase.hasReceipt){
+//     console.log("Баримтгүй байна");
+// }else if (purchase.isDamaged) {
+//     console.log("29.", "Бараа гэмтсэн байна");
+//   } else {
+//     console.log("29.", "Буцаах боломжтой");
+//   }
 
-
-
+// const card =  [{ name: "Дэвтэр", quantity: 2, stock: 5 }]
+// const addQuantity = 3;
+// const item = cart[0];
+//   if (addQuantity > 0 && item.quantity + addQuantity <= item.stock) {
+//     item.quantity += addQuantity;
+//     console.log("30.", `Эхний барааны quantity нь ${item.quantity}`);
+//   } else {
+//     console.log("30.", "Тоо ширхгийг нэмэх боломжгүй");
+//   }
